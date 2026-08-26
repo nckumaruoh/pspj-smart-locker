@@ -37,3 +37,7 @@ Commit message: `W01: charter and runnable project skeleton`
 | 7–8 | Objects, exception handling and test cases |
 | 9–10 | String algorithms and file persistence |
 | 11–12 | Collections, streams and final release |
+
+## Evidence
+
+Every completed week includes its Java source and a matching evidence note in `docs/evidence/`. Run the source in the relevant `week-##` directory before submitting that milestone's commit link.
