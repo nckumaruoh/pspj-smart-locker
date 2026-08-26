@@ -1,5 +1,7 @@
-# Week 5 — Array-based locker slots
+# Week 5 verification record
 
-Target: allocate a matching locker slot and prevent a third medium parcel from occupying two available slots.
-
-Evidence: `M-01`, `M-02`, then `NO_SLOT`.
+| Scenario | Expected result | Result |
+| --- | --- | --- |
+| First MEDIUM allocation | `M-01` | Pass |
+| Second MEDIUM allocation | `M-02` | Pass |
+| Third MEDIUM allocation | `NO_COMPATIBLE_SLOT` | Pass |

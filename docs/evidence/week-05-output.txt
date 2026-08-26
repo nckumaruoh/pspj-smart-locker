@@ -1,0 +1,5 @@
+=== Week 5 - Locker slot allocation ===
+M parcel 1 -> M-01
+M parcel 2 -> M-02
+M parcel 3 -> NO_COMPATIBLE_SLOT
+Occupancy -> [false, false, true, true, false]
