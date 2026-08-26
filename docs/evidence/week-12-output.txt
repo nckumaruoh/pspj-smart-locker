@@ -1,0 +1,10 @@
+=== Campus Smart-Locker | Final Release ===
+Receipt: PKG-1101 | Ananya | S-01 | READY
+Receipt: PKG-1102 | Ravi | M-01 | READY
+Receipt: PKG-1103 | Meera | L-01 | READY
+Collected: PKG-1102 from M-01
+--- Current register ---
+PKG-1101 | Ananya | S-01 | READY
+PKG-1102 | Ravi | M-01 | COLLECTED
+PKG-1103 | Meera | L-01 | READY
+Saved parcel-register.txt
