@@ -1,5 +1,11 @@
-# Week 3 — Menu-driven operations
+# Week 3 verification record
 
-Target: show a numbered menu and route a selected operation.
+| Input | Expected action | Result |
+| --- | --- | --- |
+| 1 | `OPEN_INTAKE` | Pass |
+| 2 | `OPEN_COLLECTION` | Pass |
+| 3 | `SHOW_STATUS` | Pass |
+| 4 | `EXIT` | Pass |
+| 9 | `INVALID_CHOICE` | Pass |
 
-Evidence: choosing `3` prints `Locker status: AVAILABLE`.
+Captured execution output: `week-03-output.txt`.
