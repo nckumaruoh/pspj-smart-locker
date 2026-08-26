@@ -1,0 +1,3 @@
+=== Smart-Locker Strings | Week 9 ===
+Normalized: PKG-1027
+Valid prefix: true
