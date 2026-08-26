@@ -4,7 +4,7 @@
  */
 public final class SmartLocker {
   private static final String PROJECT_NAME = "Campus Smart-Locker & Parcel Management System";
-  private static final String MILESTONE = "Week 1 — Project charter and Java baseline";
+  private static final String MILESTONE = "Week 1 - Project charter and Java baseline";
 
   private SmartLocker() { }
 

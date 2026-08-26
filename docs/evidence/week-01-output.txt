@@ -1,6 +1,6 @@
 ============================================================
 Campus Smart-Locker & Parcel Management System
-Week 1 — Project charter and Java baseline
+Week 1 - Project charter and Java baseline
 ============================================================
 Problem : Track parcel intake, locker allocation and collection.
 Users   : Security desk staff and registered recipients.

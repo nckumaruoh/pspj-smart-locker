@@ -1,4 +1,4 @@
-# Week 1 — Project Charter and Java Baseline
+# Week 1 - Project Charter and Java Baseline
 
 ## Objective
 
