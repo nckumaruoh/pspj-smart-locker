@@ -1,0 +1,11 @@
+=== Week 2 - Validated parcel intake ===
++--------------------------------------------------+
+ CAMPUS SMART-LOCKER - PARCEL INTAKE RECEIPT
++--------------------------------------------------+
+ Parcel ID    : PKG-1001
+ Recipient ID : CK1021
+ Parcel size  : MEDIUM
+ Received at  : 26-Aug-2026 10:30
+ Status       : ACCEPTED - awaiting locker allocation
++--------------------------------------------------+
+Validation check: Parcel ID must follow PKG-0000.

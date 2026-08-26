@@ -1,12 +1,10 @@
-# Week 2 — Parcel intake and receipt
+# Week 2 verification record
 
-Target: capture a parcel identifier, recipient and size, then issue a receipt.
+| Check | Result |
+| --- | --- |
+| Valid `PKG-1001`, `CK1021`, `MEDIUM` intake | Pass |
+| Receipt contains all four required data points | Pass |
+| Invalid parcel ID is rejected | Pass |
+| Program completes without an unhandled exception | Pass |
 
-Run:
-
-```text
-javac SmartLocker.java
-java SmartLocker
-```
-
-Expected evidence: the parcel `PKG-1001` is accepted and a receipt is printed.
+The captured output is recorded in `week-02-output.txt`.
