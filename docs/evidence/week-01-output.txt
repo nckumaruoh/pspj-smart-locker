@@ -1,0 +1,10 @@
+============================================================
+Campus Smart-Locker & Parcel Management System
+Week 1 — Project charter and Java baseline
+============================================================
+Problem : Track parcel intake, locker allocation and collection.
+Users   : Security desk staff and registered recipients.
+Input   : Parcel ID, recipient ID and parcel size.
+Output  : Locker receipt, collection status and activity log.
+Status  : Week 1 charter accepted; Java program compiled and executed.
+Next    : Implement validated parcel intake and receipt generation.
