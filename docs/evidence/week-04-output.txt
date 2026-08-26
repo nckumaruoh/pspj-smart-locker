@@ -1,0 +1,5 @@
+=== Week 4 - Size-aware routing ===
+SMALL, standard -> STANDARD-S zone
+MEDIUM, priority -> PRIORITY-M zone
+LARGE, standard -> STANDARD-L zone
+XL, standard -> REJECTED: unsupported size

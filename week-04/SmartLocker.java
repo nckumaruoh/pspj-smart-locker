@@ -1,9 +1,16 @@
-public class SmartLocker {
-  static String route(String size) {
-    return switch (size) { case "SMALL" -> "S-01"; case "MEDIUM" -> "M-01"; case "LARGE" -> "L-01"; default -> "REJECTED"; };
+/** Week 4: size-aware routing before locker allocation. */
+public final class SmartLocker {
+  private SmartLocker() { }
+  static String routeFor(String size, boolean priority) {
+    String zone = switch (size) { case "SMALL" -> "S"; case "MEDIUM" -> "M"; case "LARGE" -> "L"; default -> ""; };
+    if (zone.isEmpty()) return "REJECTED: unsupported size";
+    return (priority ? "PRIORITY-" : "STANDARD-") + zone + " zone";
   }
   public static void main(String[] args) {
-    System.out.println("=== Smart-Locker Routing | Week 4 ===");
-    for (String size : new String[] {"SMALL", "MEDIUM", "LARGE", "XL"}) System.out.println(size + " -> " + route(size));
+    System.out.println("=== Week 4 - Size-aware routing ===");
+    System.out.println("SMALL, standard -> " + routeFor("SMALL", false));
+    System.out.println("MEDIUM, priority -> " + routeFor("MEDIUM", true));
+    System.out.println("LARGE, standard -> " + routeFor("LARGE", false));
+    System.out.println("XL, standard -> " + routeFor("XL", false));
   }
 }

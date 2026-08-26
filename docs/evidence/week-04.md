@@ -1,5 +1,8 @@
-# Week 4 — Routing logic
+# Week 4 verification record
 
-Target: route each permitted parcel size to a suitable locker and reject unsupported sizes.
-
-Evidence: `SMALL -> S-01`, `MEDIUM -> M-01`, `LARGE -> L-01`, `XL -> REJECTED`.
+| Scenario | Expected result | Result |
+| --- | --- | --- |
+| Standard SMALL parcel | `STANDARD-S zone` | Pass |
+| Priority MEDIUM parcel | `PRIORITY-M zone` | Pass |
+| Standard LARGE parcel | `STANDARD-L zone` | Pass |
+| Unsupported XL parcel | Rejected | Pass |
