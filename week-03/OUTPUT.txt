@@ -1,0 +1,10 @@
+=== Week 3 - Menu routing ===
+1. Register parcel
+2. Collect parcel
+3. View locker status
+4. Exit
+Choice 1 -> OPEN_INTAKE
+Choice 2 -> OPEN_COLLECTION
+Choice 3 -> SHOW_STATUS
+Choice 4 -> EXIT
+Choice 9 -> INVALID_CHOICE
