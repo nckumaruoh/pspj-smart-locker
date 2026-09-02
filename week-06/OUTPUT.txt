@@ -1,0 +1,4 @@
+=== Smart-Locker Validation | Week 6 ===
+ACCEPTED PKG-1024
+REJECTED
+REJECTED
