@@ -1,0 +1,3 @@
+=== Smart-Locker Exceptions | Week 8 ===
+Allocated: M-03
+Handled safely: No compatible locker is available
