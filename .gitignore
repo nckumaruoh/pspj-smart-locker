@@ -1,3 +1,5 @@
 *.class
 .idea/
 .vscode/
+parcel-log.txt
+parcel-register.txt

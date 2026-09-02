@@ -40,4 +40,19 @@ Commit message: `W01: charter and runnable project skeleton`
 
 ## Evidence
 
-Every completed week includes its Java source and a matching evidence note in `docs/evidence/`. Run the source in the relevant `week-##` directory before submitting that milestone's commit link.
+Every completed week includes its Java source, a reproducible `PROCEDURE.md`, a `TRACE.md` verification record and a captured `OUTPUT.txt`. The detailed [final documentation](docs/FINAL_DOCUMENTATION.md) maps all twelve learning increments to their source and evidence.
+
+## Safe local verification
+
+Run each milestone in an isolated directory so generated demonstration files do not affect the repository:
+
+```powershell
+$run = Join-Path $env:TEMP "pspj-smart-locker-week-01"
+New-Item -ItemType Directory -Force -Path $run | Out-Null
+javac --release 17 -d $run .\week-01\SmartLocker.java
+Push-Location $run
+java -cp $run SmartLocker
+Pop-Location
+```
+
+Use the matching week number in the command. Weeks 10 and 12 intentionally create a small local demonstration file only inside that isolated run directory.
